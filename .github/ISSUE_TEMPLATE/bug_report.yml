@@ -1,0 +1,39 @@
+name: Bug Report
+description: Report a bug or something broken by a Twitch update
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Glintcast Edition
+      options:
+        - Store (Chrome Web Store / Edge Add-ons)
+        - Direct (GitHub Releases ZIP)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Glintcast Version
+      placeholder: "0.3.0"
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      placeholder: "Chrome, Brave, Edge, Arc, or Opera"
+    validations:
+      required: true
+  - type: input
+    id: extensions
+    attributes:
+      label: Other Twitch Extensions
+      placeholder: "FFZ, BTTV, 7TV, or None"
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe what went wrong and what you expected. Attach a screenshot if visual.
+    validations:
+      required: true

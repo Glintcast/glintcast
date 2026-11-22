@@ -1,0 +1,16 @@
+name: Feature or Accessibility Idea
+description: Suggest an improvement or readability fix
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Plain-language description of what feels annoying, cluttered, or hard to read on Twitch.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How should it work while staying calm and matching Twitch's native look?
