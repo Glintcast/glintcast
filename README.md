@@ -18,4 +18,4 @@ See the full [Install Guide](https://glintcast.mintlify.app/install) for Store v
 
 Glintcast is independent and is not affiliated with Twitch.
 
-Copyright © 2026 Glintcast. All rights reserved. See [LICENSE](./LICENSE).
+Copyright ï¿½ 2026 Glintcast. All rights reserved. See [LICENSE](./LICENSE).
