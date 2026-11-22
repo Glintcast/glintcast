@@ -17,3 +17,5 @@ Themes, layout modes, and playback controls for Twitch on Chromium browsers (Chr
 See the full [Install Guide](https://glintcast.mintlify.app/install) for Store vs. Direct edition details.
 
 Glintcast is independent and is not affiliated with Twitch.
+
+Copyright © 2026 Glintcast. All rights reserved. See [LICENSE](./LICENSE).

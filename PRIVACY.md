@@ -24,6 +24,8 @@ All data stays strictly inside your local browser profile (`chrome.storage.local
 | `scripting` | `https://www.twitch.tv/*` | Apply content-script updates in place without refreshing your active stream |
 | Host access | `https://*.twitch.tv/*` | Style Twitch, read React component state for sidebar/chat/player tools, and swap account cookies |
 
+*(Unpacked developer builds also declare `alarms` locally for automatic reload on disk changes; packaged Store and Direct release builds strip `alarms` and all developer reload scripts.)*
+
 ## Network Activity
 
 - Glintcast makes no requests to any Glintcast or third-party analytics server.
@@ -38,3 +40,5 @@ All data stays strictly inside your local browser profile (`chrome.storage.local
 ## Contact
 
 Report privacy or security issues at https://github.com/descentiles/glintcast/issues.
+
+Copyright © 2026 Glintcast. All rights reserved.
